@@ -1,3 +1,33 @@
 body{
-    background: red;
+    background:violet;
+}
+#toparea{
+    height: 500px;
+}/*
+@keyframes cloud{
+    0%{
+        background: url('cloud.png');
+        transform: translateX(100px);
+    }
+    50%{
+        background: url('cloud.png');
+        transform: translateX(400px);
+    }
+}*/
+#toparea img{
+    width: 100%;
+    height: 500px;
+    animation:cloud 5s infinte;
+   
+}
+#slidearea{
+    height: 600px;
+}
+#slidearea .box{
+    height: 350px;
+    margin:40px 0 0 60px;
+}
+#slidearea .box img{
+    width: 300px;
+    height: 100%;
 }
